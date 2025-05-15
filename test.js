@@ -1,6 +1,2 @@
-// HTML 요소를 자바스크립트로 생성
-const paragraph = document.createElement("p");
-paragraph.textContent = "테스트입니다";
-
-// 생성된 요소를 body에 추가
-document.body.appendChild(paragraph);
+// body에 텍스트 직접 추가
+document.body.innerHTML += "테스트입니다";
