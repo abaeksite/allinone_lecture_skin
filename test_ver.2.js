@@ -1,5 +1,13 @@
 window.SupportFinder = window.SupportFinder || {};
 
+window.SupportFinder.forceRefresh = function() {
+    // 데이터 강제 새로고침
+    if (document.getElementById('supportFinderSupportGrid')) {
+        this.updateCurrentDate();
+        this.setupCheckboxes();
+    }
+};
+
 window.SupportFinder.manualSupportData = [
 {
 title: "2028 청년 창업 지원금",
