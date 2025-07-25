@@ -29,7 +29,6 @@ ages: ["20대", "30대", "40대"],
 regions: ["전국"],
 source: "국토교통부",
 category: "주거지원",
-link: "https://aros100.com",
 priority: 2
 },
 {
@@ -269,36 +268,6 @@ window.SupportFinder.displayResults(filteredSupports);
 };
 
 window.SupportFinder.displayResults = function(supports) {
-
-var supportCards = '';
-for (var i = 0; i < supports.length; i++) {
-    var support = supports[i];
-    var dday = window.SupportFinder.calculateDday(support.deadline);
-    var urgentClass = dday.urgent ? 'urgent' : '';
-    
-    // 안전한 문자열 처리
-    var safeTitle = window.SupportFinder.safeString(support.title);
-    var safeDescription = window.SupportFinder.safeString(support.description);
-    var safeAmount = window.SupportFinder.safeString(support.amount);
-    var safeSource = window.SupportFinder.safeString(support.source);
-    var safeCategory = window.SupportFinder.safeString(support.category);
-    var safeLink = support.link || '#'; // 링크가 없으면 # 사용
-    
-    // 카드를 <a> 태그로 감싸기
-    supportCards += '<a href="' + safeLink + '" target="_blank" style="text-decoration: none; color: inherit;">';
-    supportCards += '<div class="support-finder-support-card ' + urgentClass + '">';
-    supportCards += '<h4>' + safeTitle + '</h4>';
-    supportCards += '<p>' + safeDescription + '</p>';
-    supportCards += '<div class="support-finder-support-info">';
-    supportCards += '<span class="support-finder-support-amount">' + safeAmount + '</span>';
-    supportCards += '<span class="support-finder-support-deadline" style="color: ' + dday.color + '; font-weight: ' + (dday.urgent ? '700' : '500') + ';">' + dday.text + '</span>';
-    supportCards += '</div>';
-    supportCards += '<div class="support-finder-support-source">🏛️ 담당기관: ' + safeSource + '<br/>📋 분야: ' + safeCategory + '<br/>📡 출처: 최신 정부지원금 데이터</div>';
-    supportCards += '</div>';
-    supportCards += '</a>'; // 닫는 태그
-}    
-    
-    
 var supportGrid = document.getElementById('supportFinderSupportGrid');
 var resultsCount = document.getElementById('supportFinderResultsCount');
 
@@ -324,6 +293,7 @@ for (var i = 0; i < supports.length; i++) {
     var safeAmount = window.SupportFinder.safeString(support.amount);
     var safeSource = window.SupportFinder.safeString(support.source);
     var safeCategory = window.SupportFinder.safeString(support.category);
+
 
     supportCards += '<div class="support-finder-support-card ' + urgentClass + '">';
     supportCards += '<h4>' + safeTitle + '</h4>';
