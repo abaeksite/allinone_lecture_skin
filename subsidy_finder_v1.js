@@ -21,7 +21,7 @@ category: "창업지원",
 priority: 1
 },
 {
-title: "2025 신혼부부 주택 구입 지원",
+title: "2026 신혼부부 주택 구입 지원",
 description: "신혼부부 및 예비 신혼부부를 대상으로 한 주택 구입 자금 지원 프로그램입니다. 저금리 대출과 이자 지원을 제공합니다.",
 amount: "최대 3억원",
 deadline: "2025-11-30",
@@ -29,6 +29,7 @@ ages: ["20대", "30대", "40대"],
 regions: ["전국"],
 source: "국토교통부",
 category: "주거지원",
+link: "https://aros100.com",
 priority: 2
 },
 {
@@ -293,9 +294,10 @@ for (var i = 0; i < supports.length; i++) {
     var safeAmount = window.SupportFinder.safeString(support.amount);
     var safeSource = window.SupportFinder.safeString(support.source);
     var safeCategory = window.SupportFinder.safeString(support.category);
+    var clickEvent = support.link ? 'onclick="window.location.href=\'' + support.link + '\'"' : '';
+    var cursorStyle = support.link ? 'cursor: pointer;' : '';
 
-
-    supportCards += '<div class="support-finder-support-card ' + urgentClass + '">';
+    supportCards += '<div class="support-finder-support-card ' + urgentClass + '" style="' + cursorStyle + '" ' + clickEvent + '>';
     supportCards += '<h4>' + safeTitle + '</h4>';
     supportCards += '<p>' + safeDescription + '</p>';
     supportCards += '<div class="support-finder-support-info">';
