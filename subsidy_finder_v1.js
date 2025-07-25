@@ -10,7 +10,7 @@ window.SupportFinder.forceRefresh = function() {
 
 window.SupportFinder.manualSupportData = [
 {
-title: "2028 청년 창업 지원금",
+title: "2025 청년 창업 지원금",
 description: "만 18세~39세 청년 창업자를 위한 포괄적 지원 프로그램입니다. 사업자금, 교육, 멘토링을 종합적으로 지원합니다.",
 amount: "최대 5,000만원",
 deadline: "2025-12-31",
@@ -21,7 +21,7 @@ category: "창업지원",
 priority: 1
 },
 {
-title: "2032 신혼부부 주택 구입 지원",
+title: "2025 신혼부부 주택 구입 지원",
 description: "신혼부부 및 예비 신혼부부를 대상으로 한 주택 구입 자금 지원 프로그램입니다. 저금리 대출과 이자 지원을 제공합니다.",
 amount: "최대 3억원",
 deadline: "2025-11-30",
