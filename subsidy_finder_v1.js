@@ -32,7 +32,6 @@ category: "주거지원",
 link: "https://aros100.com",
 priority: 1
 },
-[
   {
     title: "민생회복 소비쿠폰",
     description: "전 국민 대상, 카드·상품권·선불카드 방식 지급",
@@ -153,7 +152,6 @@ priority: 1
     link: "https://ols.semas.or.kr",
     priority: 10
   },
-
   {
     title: "어르신 스포츠 상품권 지원사업",
     description: "체육활동 기회 제공 위한 상품권 배포",
