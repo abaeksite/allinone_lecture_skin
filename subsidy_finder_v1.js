@@ -30,7 +30,7 @@ regions: ["전국"],
 source: "국토교통부",
 category: "주거지원",
 link: "https://aros100.com",
-priority: 2
+priority: 17
 },
 {
 title: "2025 농업인 경영 안정 지원금",
@@ -53,7 +53,7 @@ ages: ["60대", "70대"],
 regions: ["전국"],
 source: "보건복지부",
 category: "복지지원",
-priority: 4
+priority: 18
 },
 {
 title: "2025 중소기업 R&D 지원사업",
