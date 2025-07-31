@@ -46,16 +46,16 @@ priority: 1
     priority: 1
   },
   {
-    "title": "대전 청년 주택임차보증금 이자지원사업",
-    "description": "대전시 거주 19세~39세 무주택 청년 대상 보증금 대출 이자 지원",
-    "amount": "최대 연 3%",
-    "deadline": "예산 소진 시까지",
-    "ages": ["20대", "30대"],
-    "regions": ["대전광역시"],
-    "source": "대전청년내일재단",
-    "category": "청년지원",
-    "link": "https://djhousing.or.kr/",
-    "priority": 1
+    title: "대전 청년 주택임차보증금 이자지원사업",
+    description: "대전시 거주 19세~39세 무주택 청년 대상 보증금 대출 이자 지원",
+    amount: "최대 연 3%",
+    deadline: "예산 소진 시까지",
+    ages: ["20대", "30대"],
+    regions: ["대전광역시"],
+    source: "대전청년내일재단",
+    category: "청년지원",
+    link: "https://djhousing.or.kr/",
+    priority: 1
   },
   {
     title: "2025년 대전 청년 월세 지원사업",
