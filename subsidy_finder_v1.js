@@ -30,7 +30,7 @@ regions: ["전국"],
 source: "국토교통부",
 category: "주거지원",
 link: "https://aros100.com",
-priority: 17
+priority: 1
 },
 {
 title: "2025 농업인 경영 안정 지원금",
