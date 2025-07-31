@@ -215,18 +215,6 @@ priority: 1
     priority: 1
   },
   {
-    title: "경상북도 평생교육이용권 지원(제2차)",
-    description: "도내 성인 및 노인 대상 평생교육 강좌 수강료·교재비 지원",
-    amount: "1인당 최대 35만원",
-    deadline: "2025-07-18",
-    ages: ["30대", "40대", "50대", "60대", "70대"],
-    regions: ["경상북도"],
-    source: "경상북도청",
-    category: "교육",
-    link: "https://www.lllcard.kr/gyeongbuk",
-    priority: 2
-  },
-  {
     title: "경상북도 창업 및 경쟁력강화 사업자금",
     description: "도내 중소기업 대상 창업·설비·ESG 경영자금 장기 저리 융자",
     amount: "최대 5억원 (금리 약 2.5%)",
@@ -249,54 +237,6 @@ priority: 1
     category: "창업지원",
     link: "https://www.bizinfo.go.kr",
     priority: 4
-  },
-     {
-    title: "전라남도 청년 문화복지카드 지원사업",
-    description: "전남 2년 이상 거주 청년 대상 문화·복지 활동비 지원",
-    amount: "1인당 연 25만원",
-    deadline: "2025-06-30",
-    ages: ["20대", "30대"],
-    regions: ["전라남도"],
-    source: "전라남도청",
-    category: "청년지원",
-    link: "https://www.facebook.com/100087786724346/posts/2025%EB%85%84-%EC%A0%84%EB%82%A8%EC%B2%AD%EB%85%84-%EB%AC%B8%ED%99%94%EB%B3%B5%EC%A7%80%EC%B9%B4%EB%93%9C-%EC%8B%A0%EC%B2%AD-%EC%95%88%EB%82%B4%EC%A0%84%EB%82%A8-%EC%B2%AD%EB%85%84-%EC%97%AC%EB%9F%AC%EB%B6%84-%EC%A3%BC%EB%AA%A9%EB%AC%B8%ED%99%94%EC%83%9D%ED%99%9C-%EB%88%84%EB%A6%B4-%EC%A4%80%EB%B9%84-%EB%90%98%EC%85%A8%EB%82%98%EC%9A%94%EC%B5%9C%EB%8C%80-25%EB%A7%8C%EC%9B%90-%EB%AC%B8%ED%99%94%EB%B3%B5%EC%A7%80%EC%B9%B4%EB%93%9C-%EC%8B%A0%EC%B2%AD%ED%95%98%EC%84%B8%EC%9A%94-%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84-2025/",
-    priority: 1
-  },
-  {
-    title: "전라남도 평생교육이용권 지원사업",
-    description: "전남 성인·노인 대상 평생교육 강좌 수강료 및 교재비 지원",
-    amount: "1인당 최대 35만원",
-    deadline: "2025-06-17",
-    ages: ["30대", "40대", "50대", "60대", "70대"],
-    regions: ["전라남도"],
-    source: "전남인재평생교육진흥원",
-    category: "교육",
-    link: "https://www.gokmg.or.kr/edu/boardDownload.es?bid=0001&list_no=783&seq=1",
-    priority: 2
-  },
-  {
-    title: "전북형 청년활력수당",
-    description: "전북 거주 미취업 청년 대상 구직활동 지원금",
-    amount: "월 50만원 × 6개월",
-    deadline: "2025-02-28",
-    ages: ["20대", "30대"],
-    regions: ["전라북도"],
-    source: "전북특별자치도",
-    category: "청년지원",
-    link: "http://jbyouth.ezwel.com",
-    priority: 3
-  },
-     {
-    title: "2025 충북 수출창출기업 바우처 지원사업",
-    description: "충북 소재 수출 중소중견기업 대상 바우처 제공",
-    amount: "기업당 최대 3,000만원",
-    deadline: "2025-02-12",
-    ages: ["30대", "40대", "50대", "60대"],
-    regions: ["충청북도"],
-    source: "충청북도·KOTRA",
-    category: "기업지원",
-    link: "https://cbgms.chungbuk.go.kr",
-    priority: 1
   },
   {
     title: "2025 충청북도 중소기업육성자금 융자(이차보전)",
@@ -323,18 +263,6 @@ priority: 1
     priority: 3
   },
   {
-    title: "2025 재직 청년근로자 근속지원사업",
-    description: "충북 인구감소지역 중소기업 청년근로자 장기근속 지원",
-    amount: "월 30만원 (기업당 최대 5명)",
-    deadline: "2025-07-11",
-    ages: ["20대", "30대"],
-    regions: ["충청북도"],
-    source: "충청북도기업진흥원",
-    category: "일자리지원",
-    link: "https://www.bizinfo.go.kr",
-    priority: 4
-  },
-  {
     title: "작은결혼식 및 인구감소지역 결혼지원금",
     description: "충북 청년 신혼부부 대상 결혼식 및 정착지원금",
     amount: "최대 200만원 + 100만원",
@@ -345,6 +273,30 @@ priority: 1
     category: "생활안정",
     link: "https://gachi.chungbuk.go.kr",
     priority: 5
+  },
+     {
+    title: "경기도 청년기본소득",
+    description: "24세 경기도 거주 청년 대상 분기별 지역화폐 지원",
+    amount: "분기별 25만원 (최대 연 100만원)",
+    deadline: "2025-08-11",
+    ages: ["20대"],
+    regions: ["경기도"],
+    source: "경기도청",
+    category: "청년지원",
+    link: "https://www.gg.go.kr/contents/contents.do?ciIdx=1037&menuId=2736",
+    priority: 1
+  },
+  {
+    title: "민생회복 소비쿠폰 (경기도)",
+    description: "경기도 거주민 대상 전국민 소비쿠폰 지급 (현금성)",
+    amount: "최소 15만원 ~ 최대 45만원",
+    deadline: "2025‑09‑12",
+    ages: ["20대","30대","40대","50대","60대","70대"],
+    regions: ["경기도"],
+    source: "행정안전부",
+    category: "생활안정",
+    link: "https://www.korea.kr",
+    priority: 3
   }
 ]
 
