@@ -298,8 +298,6 @@ priority: 1
   }
 ]
 
-];
-
 window.SupportFinder.updateCurrentDate = function() {
 var now = new Date();
 var year = now.getFullYear();
