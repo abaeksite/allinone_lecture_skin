@@ -18,6 +18,7 @@ ages: ["20대", "30대"],
 regions: ["서울특별시", "경기도", "부산광역시", "대구광역시", "인천광역시"],
 source: "중소벤처기업부",
 category: "창업지원",
+link: "https://www.kosmes.or.kr/nsh/SH/SBI/SHSBI004M0.do",
 priority: 1
 },
 {
@@ -29,7 +30,7 @@ ages: ["20대", "30대", "40대"],
 regions: ["전국"],
 source: "국토교통부",
 category: "주거지원",
-link: "https://aros100.com",
+link: "https://plus.gov.kr/",
 priority: 1
 },
   {
