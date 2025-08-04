@@ -295,7 +295,79 @@ priority: 1
     category: "생활안정",
     link: "https://www.korea.kr",
     priority: 3
-  }
+  },
+      {
+    title: "국민취업지원제도 취업지원신청",
+    description: "구직자 대상 취업 지원 서비스",
+    amount: "최대 월 50만원",
+    deadline: "2025-12-31",
+    ages: ["20대", "30대", "40대", "50대"],
+    regions: ["전국"],
+    source: "고용노동부",
+    category: "취업지원",
+    link: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14920000086",
+    "priority": 9
+  },
+  {
+    title: "난임부부 시술비 지원 신청",
+    description: "난임부부 대상 시술비 일부 지원",
+    amount: "최대 수백만원",
+    deadline: "2025-12-31",
+    ages: ["30대", "40대"],
+    regions: [],
+    source: "보건복지부",
+    category: "건강복지",
+    link: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000394",
+    priority: 8
+  },
+  {
+    title: "생계지원금 지급신청",
+    description: "생활 어려운 대상자 생계지원금 신청",
+    amount: "최대 수백만원",
+    deadline: "2025-12-31",
+    ages: ["30대", "40대", "50대", "60대", "70대"],
+    regions: [],
+    source: "보훈처",
+    category: "생활안정",
+    link: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000165",
+    priority: 7
+  },
+  {
+    title: "고용촉진장려금 지급",
+    description: "취약계층 고용 유지 사업주 대상 장려금",
+    amount: "최대 수백만원",
+    deadline: "2025-12-31",
+    ages: ["20대", "30대", "40대", "50대"],
+    regions: [],
+    source: "고용노동부",
+    category: "고용지원",
+    link: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000227",
+    priority: 7
+  },
+  {
+    title: "사회보장급여 신청(변경)",
+    "description": "저소득층 대상 가족 사회보장 급여 신청",
+    amount: "최대 수백만원",
+    deadline: "2025-12-31",
+    ages: ["20대", "30대", "40대", "50대", "60대", "70대"],
+    regions: [],
+    source: "보건복지부",
+    category: "복지",
+    link: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000275",
+    priority: 8
+  },
+  {
+    title: "생활지원금 지급 신청",
+    description: "독립유공자 대상 생활안정 지원",
+    amount: "최대 수백만원",
+    deadline: "2025-12-31",
+    ages: ["60대", "70대"],
+    regions: [],
+    source: "국가보훈처",
+    category: "복지",
+    link: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000168",
+    priority: 6
+  }   
 ]
 
 window.SupportFinder.updateCurrentDate = function() {
