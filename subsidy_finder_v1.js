@@ -21,6 +21,21 @@ category: "창업지원",
 link: "https://www.kosmes.or.kr/nsh/SH/SBI/SHSBI004M0.do",
 priority: 1
 },
+
+{
+    title: "긴급복지 생계지원",
+    description: "식료품비, 의복비, 냉방비 등 생계유지에 필요한 비용 또는 현물 지원",
+    amount: "1인 가구: 730,500원",
+    deadline: "",
+    ages: ["20대", "30대", "40대", "50대", "60대", "70대"],
+    regions: ["서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "울산광역시", "세종시", "경기도", "강원도", "충청북도", "충청남도", "전라북도", "전라남도", "경상북도", "경상남도", "제주도"],
+    source: "보건복지상담센터",
+    category: "",
+    link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005003?administOrgCd=ALL",
+    priority: 1
+},
+
+    
 {
 title: "2025 신혼부부 주택 구입 지원",
 description: "신혼부부 및 예비 신혼부부를 대상으로 한 주택 구입 자금 지원 프로그램입니다. 저금리 대출과 이자 지원을 제공합니다.",
