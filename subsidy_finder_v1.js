@@ -22,6 +22,19 @@ link: "https://www.kosmes.or.kr/nsh/SH/SBI/SHSBI004M0.do",
 priority: 1
 },
 
+    {
+    title: "실업크레딧 지원",
+    description: " 국민연금 가입자 또는 가입자였던 사람 중 18세이상 60세미만의 구직급여 수급자",
+    amount: "최대70만원",
+    deadline: "구직급여종료일이 속하는 달의 다음달 15일 이내",
+    ages: ["50대", "40대", "30대"],
+    regions: ["서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "울산광역시", "세종시", "경기도", "강원도", "충청북도", "충청남도", "전라북도", "전라남도", "경상북도", "경상남도", "제주도"],
+    source: "고용노동부",
+    category: "취업지원",
+    link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55201500004?administOrgCd=ALL",
+    priority: 1
+},
+
 {
     title: "긴급복지 생계지원",
     description: "식료품비, 의복비, 냉방비 등 생계유지에 필요한 비용 또는 현물 지원",
