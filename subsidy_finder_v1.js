@@ -9,6 +9,54 @@ window.SupportFinder.forceRefresh = function() {
 };
 
 window.SupportFinder.manualSupportData = [
+    {
+    title: "전기 이륜차 보조금",
+    description: "서울시가 도심 대기오염과 생활 소음 저감을 위해 전기 이륜차 구매 지원",
+    amount: "최대 40%",
+    deadline: "",
+    ages: ["20대", "30대", "40대", "50대"],
+    regions: ["서울특별시"],
+    source: "서울시",
+    category: "",
+    link: "https://www.seoul.go.kr/seoul/mediahub.do?schAgeVals=40&schTargetVals=&schBunyaVals=&schType=TAG&schValue=",
+    priority: 1
+},
+    {
+    title: "청년 이사·중개비 지원",
+    description: "2023년 1월 1일 이후 서울시로 전입 또는 서울시 내에서 이사 후 전입신고 완료한 청년가구",
+    amount: "최대 40만원",
+    deadline: "2025-08-25",
+    ages: ["20대", "30대"],
+    regions: ["서울특별시"],
+    source: "청년 몽땅 정보통",
+    category: "주거지원",
+    link: "https://youth.seoul.go.kr/mainA.do",
+    priority: 1
+},
+    {
+    title: "청년도약계좌",
+    description: "(적금방식) 월 최대 70만원 이하 자유적립(회차별 최소 1천원 이상 1천원 단위 입금)",
+    amount: "최대6%",
+    deadline: "매달 초 신청",
+    ages: ["20대", "30대"],
+    regions: ["서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "울산광역시", "세종시", "경기도", "강원도", "충청북도", "충청남도", "전라북도", "전라남도", "경상북도", "경상남도", "제주도"],
+    source: "서민금융진흥원",
+    category: "기타",
+    link: "https://www.kinfa.or.kr",
+    priority: 1
+},
+        {
+    title: "장기전세 주택공급",
+    description: "시세의 80% 수준의 저렴한 임대보증금의 장기전세주택 공급",
+    amount: "시세의 80%",
+    deadline: "접수기관 별 상이",
+    ages: ["20대", "30대", "40대", "50대", "60대", "70대"],
+    regions: ["서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "울산광역시", "세종시", "경기도", "강원도", "충청북도", "충청남도", "전라북도", "전라남도", "경상북도", "경상남도", "제주도"],
+    source: "한국토지주택공사",
+    category: "주거지원",
+    link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/999000000024?administOrgCd=ALL",
+    priority: 1
+},
 {
 title: "2025 청년 창업 지원금",
 description: "만 18세~39세 청년 창업자를 위한 포괄적 지원 프로그램입니다. 사업자금, 교육, 멘토링을 종합적으로 지원합니다.",
@@ -34,6 +82,7 @@ priority: 1
     link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55201500004?administOrgCd=ALL",
     priority: 1
 },
+
 
 {
     title: "긴급복지 생계지원",
