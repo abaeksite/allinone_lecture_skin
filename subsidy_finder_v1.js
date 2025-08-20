@@ -10,6 +10,54 @@ window.SupportFinder.forceRefresh = function() {
 
 window.SupportFinder.manualSupportData = [
     {
+    title: "경상남도 농어업인수당 지원",
+    description: "농어업경영체에 등록된 경영주 및 공동경영주",
+    amount: " 연 30만원",
+    deadline: "",
+    ages: ["60대", "70대"],
+    regions: ["경상남도"],
+    source: "읍면동 행정복지센터",
+    category: "",
+    link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/648000001092",
+    priority: 1
+},
+    {
+    title: "노인가장세대 지원",
+    description: "65세이상 차상위 어르신 가장세대 대상 냉방비 40천원과 난방비 85천원 지원",
+    amount: "냉방비 40천원과 난방비 85천원",
+    deadline: "",
+    ages: ["60대", "70대"],
+    regions: ["경상남도"],
+    source: "주민센터",
+    category: "",
+    link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/648000001100",
+    priority: 1
+},
+    {
+    title: "무의탁노인 건강음료배달",
+    description: "노인맞춤돌봄서비스 대상자 중 중점군 및 그외 독거노인 등 돌봄 사각지대 어르신",
+    amount: "건강음료제공",
+    deadline: "",
+    ages: ["60대", "70대"],
+    regions: ["경상북도", "경상남도"],
+    source: "주민센터",
+    category: "",
+    link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/647000000143",
+    priority: 1
+},
+    {
+    title: "거동불편저소득재가노인식사배달",
+    description: "거동이 불편한 저소득 어르신 가정에 도시락, 반찬 등 무료급식을 제공하여 어르신 건강 지원",
+    amount: "건강 지원",
+    deadline: "",
+    ages: ["60대", "70대"],
+    regions: ["경상북도"],
+    source: "경상북도청",
+    category: "",
+    link: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/647000000124",
+    priority: 1
+},
+    {
     title: "전기 이륜차 보조금",
     description: "서울시가 도심 대기오염과 생활 소음 저감을 위해 전기 이륜차 구매 지원",
     amount: "최대 40%",
