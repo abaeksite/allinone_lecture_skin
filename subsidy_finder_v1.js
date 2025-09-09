@@ -159,15 +159,27 @@ link: "https://plus.gov.kr/",
 priority: 1
 },
   {
-    title: "민생회복 소비쿠폰",
+    title: "민생회복지원금",
     description: "전 국민 대상, 카드·상품권·선불카드 방식 지급",
     amount: "최소 15만원 ~ 최대 55만원",
-    deadline: "2025-09-12",
+    deadline: "2025-10-31",
     ages: ["20대", "30대", "40대", "50대", "60대", "70대"],
-    regions: ["대전광역시"],
-    source: "대전광역시청",
+    regions: ["전국"],
+    source: "정부24",
     category: "생활안정",
-    link: "https://www.daejeon.go.kr/livelihood/index.do",
+    link: "https://plus.gov.kr/",
+    priority: 1
+  },
+      {
+    title: "상생페이백",
+    description: "전 국민 대상, 카드·상품권·선불카드 방식 지급",
+    amount: "최소 15만원 ~ 최대 55만원",
+    deadline: "2025-11-30",
+    ages: ["20대", "30대", "40대", "50대", "60대", "70대"],
+    regions: ["전국"],
+    source: "정부24",
+    category: "생활안정",
+    link: "https://plus.gov.kr/",
     priority: 1
   },
   {
