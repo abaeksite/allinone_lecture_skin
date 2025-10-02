@@ -179,7 +179,7 @@ priority: 1
     regions: ["전국"],
     source: "정부24",
     category: "생활안정",
-    link: "https://plus.gov.kr/",
+    link: "https://xn--3h3bl7foc243a8lq.kr/",
     priority: 1
   },
   {
