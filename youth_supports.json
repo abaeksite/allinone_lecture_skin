@@ -1,0 +1,23 @@
+{
+  "supports": [
+    {
+      "id": "youth_001",
+      "title": "청년 월세 지원",
+      "category": "주거",
+      "description": "만 19~34세 청년의 월세 부담 경감",
+      "eligibility": "소득 기준 충족 청년",
+      "benefit": "월 최대 20만원",
+      "applyUrl": "https://example.com/youth-rent"
+    },
+    {
+      "id": "youth_002",
+      "title": "청년 구직활동 지원금",
+      "category": "취업",
+      "description": "구직 중인 청년에게 활동비 지원",
+      "eligibility": "만 18~34세 미취업 청년",
+      "benefit": "월 50만원 (최대 6개월)",
+      "applyUrl": "https://example.com/youth-job"
+    }
+  ],
+  "lastUpdated": "2025-10-21T22:50:00Z"
+}
