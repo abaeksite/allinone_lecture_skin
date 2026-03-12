@@ -9,14 +9,6 @@ window.SupportFinder.forceRefresh = function() {
 };
 
 window.SupportFinder.manualSupportData = [
-  /**
- * 2026년 정부 지원금 통합 데이터 (2026년 3월 기준)
- *
- * deadline: "상시" = 연중 상시 신청
- *           "YYYY-MM-DD" = 해당 날짜 마감
- */
-
-export const subsidies = [
   {
     title: "청년미래적금",
     description: "청년 자산형성 적금",
@@ -2009,8 +2001,6 @@ export const subsidies = [
     link: "https://jejuyouthdream.com",
     priority: 2
   }
-];
-  
     ]
 window.SupportFinder.updateCurrentDate = function() {
 var now = new Date();
