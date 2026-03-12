@@ -2071,6 +2071,7 @@ window.SupportFinder.manualSupportData = [
     link: "https://jejuyouthdream.com",
     priority: 2
   }
+    ]
 window.SupportFinder.updateCurrentDate = function() {
 var now = new Date();
 var year = now.getFullYear();
