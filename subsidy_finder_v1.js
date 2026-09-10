@@ -10,7 +10,7 @@ window.SupportFinder.forceRefresh = function() {
 
 window.SupportFinder.manualSupportData = [
  { title: "청년도약계좌", description: "청년 5년 자산형성", amount: "5년 만기 최대 5,000만원 (정부기여금 포함)", deadline: "매달 초 신청", ages: ["20대","30대"], regions: ["전국"], source: "서민금융진흥원", category: "자산형성", link: "https://www.kinfa.or.kr", priority: 1 },
-{ title: "근로장려금", description: "저소득 근로가구 지원", amount: "가구당 연 최대 330만원", deadline: "2026년 11월 30일 기한후신청", ages: ["20대","30대","40대","50대","60대","70대"], regions: ["전국"], source: "국세청", category: "근로·소득", link: "https://www.hometax.go.kr", priority: 1 },
+{ title: "근로장려금", description: "저소득 근로가구 지원", amount: "가구당 연 최대 330만원", deadline: "2026.11.30", ages: ["20대","30대","40대","50대","60대","70대"], regions: ["전국"], source: "국세청", category: "근로·소득", link: "https://www.hometax.go.kr", priority: 1 },
 { title: "자녀장려금", description: "저소득 양육가구 지원", amount: "자녀 1인당 최대 100만원", deadline: "2026년 11월 30일 기한후신청", ages: ["20대","30대","40대","50대","60대"], regions: ["전국"], source: "국세청", category: "근로·소득", link: "https://www.hometax.go.kr", priority: 1 },
 { title: "생계급여", description: "저소득 가구 생계비", amount: "가구 규모별 기준중위소득 32% 차액", deadline: "연중 상시", ages: ["20대","30대","40대","50대","60대","70대"], regions: ["전국"], source: "보건복지부", category: "생계", link: "https://www.bokjiro.go.kr", priority: 1 },
 { title: "의료급여", description: "의료비 본인부담 경감", amount: "1종·2종 본인부담금 차등 경감", deadline: "연중 상시", ages: ["20대","30대","40대","50대","60대","70대"], regions: ["전국"], source: "보건복지부", category: "의료", link: "https://www.bokjiro.go.kr", priority: 1 },
